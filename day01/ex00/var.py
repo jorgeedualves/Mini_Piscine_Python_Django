@@ -19,6 +19,7 @@ def my_var():
     print(f'{tuple0} has a type {type(tuple0)}')
     print(f'{set0} has a type {type(set0)}')
 
-my_var()
 
+if __name__ == '__main__':
+    my_var()
 

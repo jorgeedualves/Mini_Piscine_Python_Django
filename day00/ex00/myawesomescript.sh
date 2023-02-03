@@ -1,4 +1,3 @@
 #!/bin/sh
 
-curl -s $1 | grep "http:" | cut -d '"' -f2
-
+curl -s $1 | grep "href=" | cut -d '"' -f2

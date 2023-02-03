@@ -1,5 +1,5 @@
 def dictionary():   
-    dic = dict ([
+    d =  [
     ('Hendrix' , '1942'),
     ('Allman' , '1946'),
     ('King' , '1925'),
@@ -20,16 +20,16 @@ def dictionary():
     ('Frusciante', '1970'),
     ('Thompson' , '1949'),
     ('Burton' , '1939')
-    ])
+    ]
 
-    dic_new = {}
+    dict_new = {}
 
-    for key, value in dic.items():
-        if value in dic_new:
-            dic_new[value] +=  ' ' + key 
+    for key, value in d:
+        if value in dict_new:
+            dict_new[value] +=  ' ' + key 
         else:
-            dic_new[value] = key
-    for key, value in dic_new.items():
+            dict_new[value] = key
+    for key, value in dict_new.items():
         print(key, ':', value)
 
 if __name__ == '__main__':

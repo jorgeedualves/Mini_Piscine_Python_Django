@@ -13,18 +13,15 @@ def countries(input_user):
     "CO": "Denver"
     }
 
-    input_user.split(',')
-    print(input_user)
-  
-    
-    for key, value in capital_cities.items():
-        if (value.isupper()):
-            print ('Está em Maiuscula?', value.isupper())
-        if not(input_user in capital_cities.values()):
-            print('Unknown capital city')
-            sys.exit()
+    if (input_user in capital_cities.values()):
+        print(f'{input_user}')
+    elif (input_user in states):
+        print(f'{input_user}')
+        if (states.values() == capital_cities.keys()):
+            print(f'{capital_cities.values()}')
+    else:
+        print(f'{input_user} is neither a capital city nor a state')
 
-    
 if __name__ == '__main__':
     if (len(sys.argv) != 2):
         sys.exit()

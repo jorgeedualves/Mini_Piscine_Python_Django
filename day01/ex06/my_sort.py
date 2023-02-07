@@ -29,20 +29,7 @@ def artists():
     new_disc = dict(order)
 
     for key, value in new_disc.items():
-        print(key, ':', value)
-
- 
-            
-
-    # dict_new = {}
-
-    # for key, value in d:
-    #     if value in dict_new:
-    #         dict_new[value] +=  ' ' + key 
-    #     else:
-    #         dict_new[value] = key
-    # for key, value in dict_new.items():
-    #     print(key, ':', value)
+        print(key)
 
 if __name__ == '__main__':
     artists()

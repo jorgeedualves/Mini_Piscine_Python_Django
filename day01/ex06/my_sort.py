@@ -26,9 +26,9 @@ def artists():
     new_list = list(d.items())
 
     order = sorted(new_list, key=lambda x:(x[1],x[0]))
-    new_disc = dict(order)
+    order = dict(order)
 
-    for key, value in new_disc.items():
+    for key, value in order.items():
         print(key)
 
 if __name__ == '__main__':

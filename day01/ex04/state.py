@@ -14,8 +14,7 @@ def countries(input_user):
     }
 
     if not(input_user in capital_cities.values()):
-        print('Unknown capital city')
-        sys.exit()
+        sys.exit('Unknown capital city')
     for key, value in capital_cities.items():
         if (input_user == value):
             new_value = key

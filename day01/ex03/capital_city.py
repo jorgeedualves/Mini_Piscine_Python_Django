@@ -16,8 +16,7 @@ def countries(input_user):
     }
 
     if not(input_user in states):
-        print('Unknown state')
-        sys.exit()
+        sys.exit('Unknown state')
     print (capital_cities[states[input_user]])
 
 

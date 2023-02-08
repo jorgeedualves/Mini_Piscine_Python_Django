@@ -1,5 +1,5 @@
 import sys
-def countries(argv):
+def countries(input_user):
     states = {
     "Oregon" : "OR",
     "Alabama" : "AL",
@@ -13,11 +13,11 @@ def countries(argv):
     "CO": "Denver"
     }
 
-    if not(argv[1] in capital_cities.values()):
+    if not(input_user in capital_cities.values()):
         print('Unknown capital city')
         sys.exit()
     for key, value in capital_cities.items():
-        if (argv[1] == value):
+        if (input_user == value):
             new_value = key
     for key, value in states.items():
         if (new_value == value):
@@ -26,4 +26,4 @@ def countries(argv):
 if __name__ == '__main__':
     if (len(sys.argv) != 2):
         sys.exit()
-    countries(sys.argv)
+    countries(sys.argv[1])

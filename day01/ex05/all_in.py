@@ -11,8 +11,6 @@ def valid_capital(input_user, states, capital_cities):
         if (new_value == value):
             print(f'{input_user} is the capital of {key}')
 
-    
-
 def countries(input_user):
     states = {
     "Oregon" : "OR",

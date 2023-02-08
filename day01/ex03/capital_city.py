@@ -1,6 +1,6 @@
 import sys
 
-def countries(argv):
+def countries(input_user):
 
     states = {
     "Oregon" : "OR",
@@ -15,13 +15,13 @@ def countries(argv):
     "CO": "Denver"
     }
 
-    if not(argv[1] in states):
+    if not(input_user in states):
         print('Unknown state')
         sys.exit()
-    print (capital_cities[states[argv[1]]])
+    print (capital_cities[states[input_user]])
 
 
 if __name__ == '__main__':
     if (len(sys.argv) != 2):
         sys.exit()
-    countries(sys.argv) 
+    countries(sys.argv[1]) 

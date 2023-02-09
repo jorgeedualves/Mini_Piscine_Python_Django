@@ -14,12 +14,17 @@ class Intern:
     
     def make_coffee(self):
         Intern.Coffee()
+    
+def main():
+	no_name = Intern()
+	mark = Intern("Mark")
+	print(no_name)
+	print(mark)
+	try:
+		no_name.work()
+	except Exception as e:
+		print(e)
+	print(mark.make_coffee())
 
 if __name__ == '__main__':
-    
-    try:
-        Intern.make_coffee()
-    except Exception as erro:
-       Intern.work()
-    else:
-        print('fim')
+    main()

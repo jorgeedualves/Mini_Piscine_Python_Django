@@ -2,8 +2,8 @@ class Intern:
     def __init__(self, name='My name? I’m nobody, an intern, I have no name.'): # Construtor
         self.name = name
 
-    def __str__(self):      # metodo
-        return f'{self.name}'
+    def __str__(self):
+        return (f'{self.name}')
 
     class Coffee:
         def __str__(self):

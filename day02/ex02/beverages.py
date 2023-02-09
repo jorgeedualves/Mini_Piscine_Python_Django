@@ -8,11 +8,11 @@ class HotBeverage:
         return (f'Just some hot water in a cup.')
     
     def __str__(self):
-        return (f'name: {self.name}\nprice: {self.price:.2f}\ndescription: {self.description()}')
+        return (f'name : {self.name}\nprice : {self.price:.2f}\ndescription : {self.description()}')
     
 class Coffee(HotBeverage):
     def __init__(self):
-        super().__init__(name="coffee", price=0.40)
+        super().__init__(name="coffee", price = 0.40)
     
     def description(self):
         return (f'A coffee, to stay awake.')      

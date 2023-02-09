@@ -15,15 +15,11 @@ class Intern:
     def make_coffee(self):
         Intern.Coffee()
 
-
 if __name__ == '__main__':
     
-    p1 = Intern('jorge')
-    p2 = Intern.Coffee()
-    p4 = Intern.work()
-    p5 = Intern.make_coffee()
-
-    print(p1)
-    print(p2)
-    print(p4)
-    print(p5)
+    try:
+        Intern.make_coffee()
+    except Exception as erro:
+       Intern.work()
+    else:
+        print('fim')

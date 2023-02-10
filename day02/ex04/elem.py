@@ -20,7 +20,7 @@ class Elem:
 	"""
     #[...]
 	class ValidationError(Exception):
-		def __init__(self, error="invalid type or Elem or Text type."):
+		def __init__(self, error="invalid type or Elem or Text."):
 			Exception.__init__(self, error)
 
 	def __init__(self, tag='div', attr={}, content=None, tag_type='double'):
@@ -49,7 +49,7 @@ class Elem:
 		"""
         #[...]
 		if self.tag_type == 'double':
-			result = "<{0}{1}>{2}</{0}>".format(self.tag, self.__make_attr(), self.__make_content())
+			result = "<{}{}>{}</{}>".format(self.tag, self.__make_attr(), self.__make_content(), self.tag)
 		elif self.tag_type == 'simple':
 			result = "<{}{} />".format(self.tag, self.__make_attr())
 		return result
@@ -99,7 +99,7 @@ def main():
 	html = Elem('html', content=[
 				Elem('head', content=Elem('title', content=Text('"Hello ground!"'))),
 				Elem('body', content=[Elem('h1', content=Text('"Oh no, not again!"')),
-				Elem('img', {'src': 'http://i.imgur.com/pfp3T.jpg'}, tag_type='simple')])])
+				    Elem('img', {'src': 'http://i.imgur.com/pfp3T.jpg'}, tag_type='simple')])])
 	test = Elem
 	print(html)
 

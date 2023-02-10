@@ -36,11 +36,11 @@ class Cappuccino(HotBeverage):
         return (f'Un po di Italia nella sua tazza!')
 
 def main():
-    print(HotBeverage())
-    print(Coffee())
-    print(Tea())
-    print(Chocolate())
-    print(Cappuccino())
+    print(HotBeverage(), end='\n\n')
+    print(Coffee(), end='\n\n')
+    print(Tea(), end='\n\n')
+    print(Chocolate(), end='\n\n')
+    print(Cappuccino(), end='\n')
     
 if __name__ == '__main__':
     main()

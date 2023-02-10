@@ -14,7 +14,7 @@ def curriculum(file):
     # print(new_dict)
 
     text = content.format(**new_dict)
-    print(text)
+    # print(text)
 
     file_name = file.replace('.template', '.html')
     print(file_name)
@@ -24,10 +24,10 @@ def curriculum(file):
 
 if __name__ == '__main__':
     if (len(sys.argv) != 2):
-        sys.exit('quantidade de argumentos invalida')
+        sys.exit('Number of invalid arguments')
     if not (sys.argv[1].endswith('.template')):
-        sys.exit('extensão invalida')
+        sys.exit('Invalid extension')
     if not (os.path.isfile(sys.argv[1])):
-        sys.exit('arquivo não existe')
+        sys.exit("File doesn't exist")
     curriculum(sys.argv[1])
 

@@ -18,11 +18,11 @@ class CoffeeMachine:
 
     def repair(self):
         self.served = 0
-        print("----------\nMachine Repaired\n------------")
+        print("-----------------\nMachine Repaired\n-----------------")
     
     def serve(self, product):
         list_product = [product(), CoffeeMachine.EmptyCup()]
-        print(random.choice(list_product))
+        print(random.choice(list_product), end='\n\n')
 
 def main():
     

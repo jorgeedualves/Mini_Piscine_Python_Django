@@ -1,0 +1,543 @@
+2023-02-10T03:06:33,020 Using pip 22.2.2 from /home/jorge/.local/lib/python3.8/site-packages/pip (python 3.8)
+2023-02-10T03:06:33,021 Non-user install due to --prefix or --target option
+2023-02-10T03:06:33,021 Created temporary directory: /tmp/pip-target-49kxcuj3
+2023-02-10T03:06:34,469 Created temporary directory: /tmp/pip-ephem-wheel-cache-0ggjss1h
+2023-02-10T03:06:34,469 Created temporary directory: /tmp/pip-build-tracker-oui6y4ff
+2023-02-10T03:06:34,469 Initialized build tracking at /tmp/pip-build-tracker-oui6y4ff
+2023-02-10T03:06:34,470 Created build tracker: /tmp/pip-build-tracker-oui6y4ff
+2023-02-10T03:06:34,470 Entered build tracker: /tmp/pip-build-tracker-oui6y4ff
+2023-02-10T03:06:34,470 Created temporary directory: /tmp/pip-install-7q_041ha
+2023-02-10T03:06:34,596 Collecting git+https://github.com/jaraco/path.py.git
+2023-02-10T03:06:34,597   Created temporary directory: /tmp/pip-req-build-tk80qitk
+2023-02-10T03:06:34,598   Cloning https://github.com/jaraco/path.py.git to /tmp/pip-req-build-tk80qitk
+2023-02-10T03:06:34,599   Running command git version
+2023-02-10T03:06:34,605   git version 2.25.1
+2023-02-10T03:06:34,606   Running command git clone --filter=blob:none --quiet https://github.com/jaraco/path.py.git /tmp/pip-req-build-tk80qitk
+2023-02-10T03:06:36,468   Running command git rev-parse HEAD
+2023-02-10T03:06:36,482   7a6943573c8644febd91ef6622d9066cc43e9dab
+2023-02-10T03:06:36,484   Resolved https://github.com/jaraco/path.py.git to commit 7a6943573c8644febd91ef6622d9066cc43e9dab
+2023-02-10T03:06:36,487   Running command git rev-parse HEAD
+2023-02-10T03:06:36,503   7a6943573c8644febd91ef6622d9066cc43e9dab
+2023-02-10T03:06:36,506   Added git+https://github.com/jaraco/path.py.git to build tracker '/tmp/pip-build-tracker-oui6y4ff'
+2023-02-10T03:06:36,512   Created temporary directory: /tmp/pip-build-env-8jcdjhmr
+2023-02-10T03:06:36,516   Running command pip subprocess to install build dependencies
+2023-02-10T03:06:37,082   Using pip 22.2.2 from /home/jorge/.local/lib/python3.8/site-packages/pip (python 3.8)
+2023-02-10T03:06:37,845   Collecting setuptools>=56
+2023-02-10T03:06:37,949     Downloading setuptools-67.2.0-py3-none-any.whl (1.1 MB)
+2023-02-10T03:06:38,182        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 4.8 MB/s eta 0:00:00
+2023-02-10T03:06:38,390   Collecting setuptools_scm[toml]>=3.4.1
+2023-02-10T03:06:38,409     Downloading setuptools_scm-7.1.0-py3-none-any.whl (43 kB)
+2023-02-10T03:06:38,457        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.8/43.8 kB 788.4 kB/s eta 0:00:00
+2023-02-10T03:06:38,600   Collecting tomli>=1.0.0
+2023-02-10T03:06:38,615     Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+2023-02-10T03:06:38,831   Collecting packaging>=20.0
+2023-02-10T03:06:38,842     Downloading packaging-23.0-py3-none-any.whl (42 kB)
+2023-02-10T03:06:39,048        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.7/42.7 kB 160.6 kB/s eta 0:00:00
+2023-02-10T03:06:39,154   Collecting typing-extensions
+2023-02-10T03:06:39,188     Downloading typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+2023-02-10T03:06:40,891   Installing collected packages: typing-extensions, tomli, setuptools, packaging, setuptools_scm
+2023-02-10T03:06:42,111   ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+2023-02-10T03:06:42,111   launchpadlib 1.10.13 requires testresources, which is not installed.
+2023-02-10T03:06:42,112   Successfully installed packaging-23.0 setuptools-67.2.0 setuptools_scm-7.1.0 tomli-2.0.1 typing-extensions-4.4.0
+2023-02-10T03:06:42,586   --- Logging error ---
+2023-02-10T03:06:42,587   Traceback (most recent call last):
+2023-02-10T03:06:42,587     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 177, in emit
+2023-02-10T03:06:42,587       self.console.print(renderable, overflow="ignore", crop=False, style=style)
+2023-02-10T03:06:42,587     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1673, in print
+2023-02-10T03:06:42,588       extend(render(renderable, render_options))
+2023-02-10T03:06:42,588     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1305, in render
+2023-02-10T03:06:42,588       for render_output in iter_render:
+2023-02-10T03:06:42,588     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 134, in __rich_console__
+2023-02-10T03:06:42,589       for line in lines:
+2023-02-10T03:06:42,589     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/segment.py", line 249, in split_lines
+2023-02-10T03:06:42,589       for segment in segments:
+2023-02-10T03:06:42,589     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1283, in render
+2023-02-10T03:06:42,590       renderable = rich_cast(renderable)
+2023-02-10T03:06:42,590     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/protocol.py", line 36, in rich_cast
+2023-02-10T03:06:42,590       renderable = cast_method()
+2023-02-10T03:06:42,590     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 130, in __rich__
+2023-02-10T03:06:42,590       pip_cmd = get_best_invocation_for_this_pip()
+2023-02-10T03:06:42,590     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/entrypoints.py", line 58, in get_best_invocation_for_this_pip
+2023-02-10T03:06:42,590       if found_executable and os.path.samefile(
+2023-02-10T03:06:42,591     File "/usr/lib/python3.8/genericpath.py", line 101, in samefile
+2023-02-10T03:06:42,591       s2 = os.stat(f2)
+2023-02-10T03:06:42,591   FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip3.8'
+2023-02-10T03:06:42,591   Call stack:
+2023-02-10T03:06:42,591     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__pip-runner__.py", line 36, in <module>
+2023-02-10T03:06:42,591       runpy.run_module("pip", run_name="__main__", alter_sys=True)
+2023-02-10T03:06:42,591     File "/usr/lib/python3.8/runpy.py", line 207, in run_module
+2023-02-10T03:06:42,592       return _run_module_code(code, init_globals, run_name, mod_spec)
+2023-02-10T03:06:42,592     File "/usr/lib/python3.8/runpy.py", line 97, in _run_module_code
+2023-02-10T03:06:42,592       _run_code(code, mod_globals, init_globals,
+2023-02-10T03:06:42,592     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+2023-02-10T03:06:42,592       exec(code, run_globals)
+2023-02-10T03:06:42,592     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__main__.py", line 31, in <module>
+2023-02-10T03:06:42,593       sys.exit(_main())
+2023-02-10T03:06:42,593     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/main.py", line 70, in main
+2023-02-10T03:06:42,593       return command.main(cmd_args)
+2023-02-10T03:06:42,593     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 101, in main
+2023-02-10T03:06:42,593       return self._main(args)
+2023-02-10T03:06:42,593     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 223, in _main
+2023-02-10T03:06:42,594       self.handle_pip_version_check(options)
+2023-02-10T03:06:42,594     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/req_command.py", line 190, in handle_pip_version_check
+2023-02-10T03:06:42,594       pip_self_version_check(session, options)
+2023-02-10T03:06:42,594     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 236, in pip_self_version_check
+2023-02-10T03:06:42,594       logger.warning("[present-rich] %s", upgrade_prompt)
+2023-02-10T03:06:42,594     File "/usr/lib/python3.8/logging/__init__.py", line 1458, in warning
+2023-02-10T03:06:42,594       self._log(WARNING, msg, args, **kwargs)
+2023-02-10T03:06:42,595     File "/usr/lib/python3.8/logging/__init__.py", line 1589, in _log
+2023-02-10T03:06:42,595       self.handle(record)
+2023-02-10T03:06:42,595     File "/usr/lib/python3.8/logging/__init__.py", line 1599, in handle
+2023-02-10T03:06:42,595       self.callHandlers(record)
+2023-02-10T03:06:42,595     File "/usr/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+2023-02-10T03:06:42,595       hdlr.handle(record)
+2023-02-10T03:06:42,595     File "/usr/lib/python3.8/logging/__init__.py", line 954, in handle
+2023-02-10T03:06:42,595       self.emit(record)
+2023-02-10T03:06:42,596     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 179, in emit
+2023-02-10T03:06:42,596       self.handleError(record)
+2023-02-10T03:06:42,596   Message: '[present-rich] %s'
+2023-02-10T03:06:42,596   Arguments: (UpgradePrompt(old='22.2.2', new='23.0'),)
+2023-02-10T03:06:42,715   Running command Getting requirements to build wheel
+2023-02-10T03:06:43,093   running egg_info
+2023-02-10T03:06:43,094   creating path.egg-info
+2023-02-10T03:06:43,097   writing path.egg-info/PKG-INFO
+2023-02-10T03:06:43,097   writing dependency_links to path.egg-info/dependency_links.txt
+2023-02-10T03:06:43,098   writing requirements to path.egg-info/requires.txt
+2023-02-10T03:06:43,099   writing top-level names to path.egg-info/top_level.txt
+2023-02-10T03:06:43,099   writing manifest file 'path.egg-info/SOURCES.txt'
+2023-02-10T03:06:43,127   reading manifest template 'MANIFEST.in'
+2023-02-10T03:06:43,128   adding license file 'LICENSE'
+2023-02-10T03:06:43,129   writing manifest file 'path.egg-info/SOURCES.txt'
+2023-02-10T03:06:43,169   Running command pip subprocess to install backend dependencies
+2023-02-10T03:06:43,705   Using pip 22.2.2 from /home/jorge/.local/lib/python3.8/site-packages/pip (python 3.8)
+2023-02-10T03:06:44,063   Collecting wheel
+2023-02-10T03:06:44,118     Downloading wheel-0.38.4-py3-none-any.whl (36 kB)
+2023-02-10T03:06:44,743   Installing collected packages: wheel
+2023-02-10T03:06:44,776     Creating /tmp/pip-build-env-8jcdjhmr/normal/bin
+2023-02-10T03:06:44,777     changing mode of /tmp/pip-build-env-8jcdjhmr/normal/bin/wheel to 775
+2023-02-10T03:06:44,874   Successfully installed wheel-0.38.4
+2023-02-10T03:06:44,899   --- Logging error ---
+2023-02-10T03:06:44,899   Traceback (most recent call last):
+2023-02-10T03:06:44,899     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 177, in emit
+2023-02-10T03:06:44,899       self.console.print(renderable, overflow="ignore", crop=False, style=style)
+2023-02-10T03:06:44,900     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1673, in print
+2023-02-10T03:06:44,900       extend(render(renderable, render_options))
+2023-02-10T03:06:44,900     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1305, in render
+2023-02-10T03:06:44,900       for render_output in iter_render:
+2023-02-10T03:06:44,900     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 134, in __rich_console__
+2023-02-10T03:06:44,900       for line in lines:
+2023-02-10T03:06:44,900     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/segment.py", line 249, in split_lines
+2023-02-10T03:06:44,901       for segment in segments:
+2023-02-10T03:06:44,901     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1283, in render
+2023-02-10T03:06:44,901       renderable = rich_cast(renderable)
+2023-02-10T03:06:44,901     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/protocol.py", line 36, in rich_cast
+2023-02-10T03:06:44,901       renderable = cast_method()
+2023-02-10T03:06:44,902     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 130, in __rich__
+2023-02-10T03:06:44,902       pip_cmd = get_best_invocation_for_this_pip()
+2023-02-10T03:06:44,902     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/entrypoints.py", line 58, in get_best_invocation_for_this_pip
+2023-02-10T03:06:44,902       if found_executable and os.path.samefile(
+2023-02-10T03:06:44,902     File "/usr/lib/python3.8/genericpath.py", line 101, in samefile
+2023-02-10T03:06:44,902       s2 = os.stat(f2)
+2023-02-10T03:06:44,902   FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip3.8'
+2023-02-10T03:06:44,903   Call stack:
+2023-02-10T03:06:44,903     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__pip-runner__.py", line 36, in <module>
+2023-02-10T03:06:44,903       runpy.run_module("pip", run_name="__main__", alter_sys=True)
+2023-02-10T03:06:44,903     File "/usr/lib/python3.8/runpy.py", line 207, in run_module
+2023-02-10T03:06:44,903       return _run_module_code(code, init_globals, run_name, mod_spec)
+2023-02-10T03:06:44,903     File "/usr/lib/python3.8/runpy.py", line 97, in _run_module_code
+2023-02-10T03:06:44,903       _run_code(code, mod_globals, init_globals,
+2023-02-10T03:06:44,903     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+2023-02-10T03:06:44,904       exec(code, run_globals)
+2023-02-10T03:06:44,904     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__main__.py", line 31, in <module>
+2023-02-10T03:06:44,904       sys.exit(_main())
+2023-02-10T03:06:44,904     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/main.py", line 70, in main
+2023-02-10T03:06:44,904       return command.main(cmd_args)
+2023-02-10T03:06:44,904     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 101, in main
+2023-02-10T03:06:44,904       return self._main(args)
+2023-02-10T03:06:44,904     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 223, in _main
+2023-02-10T03:06:44,904       self.handle_pip_version_check(options)
+2023-02-10T03:06:44,904     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/req_command.py", line 190, in handle_pip_version_check
+2023-02-10T03:06:44,905       pip_self_version_check(session, options)
+2023-02-10T03:06:44,905     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 236, in pip_self_version_check
+2023-02-10T03:06:44,905       logger.warning("[present-rich] %s", upgrade_prompt)
+2023-02-10T03:06:44,905     File "/usr/lib/python3.8/logging/__init__.py", line 1458, in warning
+2023-02-10T03:06:44,905       self._log(WARNING, msg, args, **kwargs)
+2023-02-10T03:06:44,905     File "/usr/lib/python3.8/logging/__init__.py", line 1589, in _log
+2023-02-10T03:06:44,905       self.handle(record)
+2023-02-10T03:06:44,905     File "/usr/lib/python3.8/logging/__init__.py", line 1599, in handle
+2023-02-10T03:06:44,905       self.callHandlers(record)
+2023-02-10T03:06:44,905     File "/usr/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+2023-02-10T03:06:44,906       hdlr.handle(record)
+2023-02-10T03:06:44,906     File "/usr/lib/python3.8/logging/__init__.py", line 954, in handle
+2023-02-10T03:06:44,906       self.emit(record)
+2023-02-10T03:06:44,906     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 179, in emit
+2023-02-10T03:06:44,906       self.handleError(record)
+2023-02-10T03:06:44,906   Message: '[present-rich] %s'
+2023-02-10T03:06:44,906   Arguments: (UpgradePrompt(old='22.2.2', new='23.0'),)
+2023-02-10T03:06:44,998   Created temporary directory: /tmp/pip-modern-metadata-gg31hjnr
+2023-02-10T03:06:44,999   Running command Preparing metadata (pyproject.toml)
+2023-02-10T03:06:45,320   running dist_info
+2023-02-10T03:06:45,326   creating /tmp/pip-modern-metadata-gg31hjnr/path.egg-info
+2023-02-10T03:06:45,327   writing /tmp/pip-modern-metadata-gg31hjnr/path.egg-info/PKG-INFO
+2023-02-10T03:06:45,328   writing dependency_links to /tmp/pip-modern-metadata-gg31hjnr/path.egg-info/dependency_links.txt
+2023-02-10T03:06:45,328   writing requirements to /tmp/pip-modern-metadata-gg31hjnr/path.egg-info/requires.txt
+2023-02-10T03:06:45,329   writing top-level names to /tmp/pip-modern-metadata-gg31hjnr/path.egg-info/top_level.txt
+2023-02-10T03:06:45,329   writing manifest file '/tmp/pip-modern-metadata-gg31hjnr/path.egg-info/SOURCES.txt'
+2023-02-10T03:06:45,359   reading manifest template 'MANIFEST.in'
+2023-02-10T03:06:45,360   adding license file 'LICENSE'
+2023-02-10T03:06:45,361   writing manifest file '/tmp/pip-modern-metadata-gg31hjnr/path.egg-info/SOURCES.txt'
+2023-02-10T03:06:45,361   creating '/tmp/pip-modern-metadata-gg31hjnr/path-16.6.1.dev11+g7a69435.dist-info'
+2023-02-10T03:06:45,453   Source in /tmp/pip-req-build-tk80qitk has version 16.6.1.dev11+g7a69435, which satisfies requirement path==16.6.1.dev11+g7a69435 from git+https://github.com/jaraco/path.py.git
+2023-02-10T03:06:45,454   Removed path==16.6.1.dev11+g7a69435 from git+https://github.com/jaraco/path.py.git from build tracker '/tmp/pip-build-tracker-oui6y4ff'
+2023-02-10T03:06:45,495 Created temporary directory: /tmp/pip-unpack-i2blduoa
+2023-02-10T03:06:45,496 Building wheels for collected packages: path
+2023-02-10T03:06:45,498   Created temporary directory: /tmp/pip-wheel-0_pe46i9
+2023-02-10T03:06:45,498   Destination directory: /tmp/pip-wheel-0_pe46i9
+2023-02-10T03:06:45,499   Running command Building wheel for path (pyproject.toml)
+2023-02-10T03:06:45,858   running bdist_wheel
+2023-02-10T03:06:45,869   running build
+2023-02-10T03:06:45,869   running build_py
+2023-02-10T03:06:45,872   creating build
+2023-02-10T03:06:45,872   creating build/lib
+2023-02-10T03:06:45,873   creating build/lib/path
+2023-02-10T03:06:45,873   copying path/classes.py -> build/lib/path
+2023-02-10T03:06:45,873   copying path/matchers.py -> build/lib/path
+2023-02-10T03:06:45,873   copying path/py37compat.py -> build/lib/path
+2023-02-10T03:06:45,874   copying path/__init__.py -> build/lib/path
+2023-02-10T03:06:45,874   copying path/masks.py -> build/lib/path
+2023-02-10T03:06:45,874   running egg_info
+2023-02-10T03:06:45,880   writing path.egg-info/PKG-INFO
+2023-02-10T03:06:45,881   writing dependency_links to path.egg-info/dependency_links.txt
+2023-02-10T03:06:45,881   writing requirements to path.egg-info/requires.txt
+2023-02-10T03:06:45,882   writing top-level names to path.egg-info/top_level.txt
+2023-02-10T03:06:45,908   reading manifest template 'MANIFEST.in'
+2023-02-10T03:06:45,909   adding license file 'LICENSE'
+2023-02-10T03:06:45,910   writing manifest file 'path.egg-info/SOURCES.txt'
+2023-02-10T03:06:45,911   copying path/__init__.pyi -> build/lib/path
+2023-02-10T03:06:45,911   copying path/classes.pyi -> build/lib/path
+2023-02-10T03:06:45,912   copying path/masks.pyi -> build/lib/path
+2023-02-10T03:06:45,912   copying path/matchers.pyi -> build/lib/path
+2023-02-10T03:06:45,912   copying path/py.typed -> build/lib/path
+2023-02-10T03:06:45,912   copying path/py37compat.pyi -> build/lib/path
+2023-02-10T03:06:45,921   installing to build/bdist.linux-x86_64/wheel
+2023-02-10T03:06:45,921   running install
+2023-02-10T03:06:45,929   running install_lib
+2023-02-10T03:06:45,932   creating build/bdist.linux-x86_64
+2023-02-10T03:06:45,932   creating build/bdist.linux-x86_64/wheel
+2023-02-10T03:06:45,932   creating build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,932   copying build/lib/path/classes.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,932   copying build/lib/path/classes.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,933   copying build/lib/path/matchers.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,933   copying build/lib/path/masks.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,933   copying build/lib/path/py37compat.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,933   copying build/lib/path/__init__.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,934   copying build/lib/path/py37compat.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,934   copying build/lib/path/__init__.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,934   copying build/lib/path/masks.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,934   copying build/lib/path/py.typed -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,935   copying build/lib/path/matchers.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:06:45,935   running install_egg_info
+2023-02-10T03:06:45,937   Copying path.egg-info to build/bdist.linux-x86_64/wheel/path-16.6.1.dev11+g7a69435-py3.8.egg-info
+2023-02-10T03:06:45,939   running install_scripts
+2023-02-10T03:06:45,965   creating build/bdist.linux-x86_64/wheel/path-16.6.1.dev11+g7a69435.dist-info/WHEEL
+2023-02-10T03:06:45,966   creating '/tmp/pip-wheel-0_pe46i9/.tmp-lb6nlyj1/path-16.6.1.dev11+g7a69435-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+2023-02-10T03:06:45,969   adding 'path/__init__.py'
+2023-02-10T03:06:45,969   adding 'path/__init__.pyi'
+2023-02-10T03:06:45,970   adding 'path/classes.py'
+2023-02-10T03:06:45,970   adding 'path/classes.pyi'
+2023-02-10T03:06:45,971   adding 'path/masks.py'
+2023-02-10T03:06:45,971   adding 'path/masks.pyi'
+2023-02-10T03:06:45,971   adding 'path/matchers.py'
+2023-02-10T03:06:45,972   adding 'path/matchers.pyi'
+2023-02-10T03:06:45,972   adding 'path/py.typed'
+2023-02-10T03:06:45,972   adding 'path/py37compat.py'
+2023-02-10T03:06:45,973   adding 'path/py37compat.pyi'
+2023-02-10T03:06:45,973   adding 'path-16.6.1.dev11+g7a69435.dist-info/LICENSE'
+2023-02-10T03:06:45,974   adding 'path-16.6.1.dev11+g7a69435.dist-info/METADATA'
+2023-02-10T03:06:45,974   adding 'path-16.6.1.dev11+g7a69435.dist-info/WHEEL'
+2023-02-10T03:06:45,974   adding 'path-16.6.1.dev11+g7a69435.dist-info/top_level.txt'
+2023-02-10T03:06:45,975   adding 'path-16.6.1.dev11+g7a69435.dist-info/RECORD'
+2023-02-10T03:06:45,975   removing build/bdist.linux-x86_64/wheel
+2023-02-10T03:06:46,016   Created wheel for path: filename=path-16.6.1.dev11+g7a69435-py3-none-any.whl size=26716 sha256=c8505ed09694327c5576445c80dc7de4ff51b63c05ffbd375e3d85a69c1bbb6d
+2023-02-10T03:06:46,017   Stored in directory: /tmp/pip-ephem-wheel-cache-0ggjss1h/wheels/f4/b1/e8/0c2581fc68c581f8838df32b71e05a09629ef0ac8500bff509
+2023-02-10T03:06:46,026 Successfully built path
+2023-02-10T03:06:46,729 Installing collected packages: path
+2023-02-10T03:06:46,732   Running command git rev-parse HEAD
+2023-02-10T03:06:46,739   7a6943573c8644febd91ef6622d9066cc43e9dab
+
+2023-02-10T03:06:46,936 Successfully installed path-16.6.1.dev11+g7a69435
+2023-02-10T03:06:46,945 Remote version of pip: 23.0
+2023-02-10T03:06:46,945 Local version of pip:  22.2.2
+2023-02-10T03:06:46,946 Was pip installed by pip? True
+2023-02-10T03:06:46,946 WARNING: [present-rich] UpgradePrompt(old='22.2.2', new='23.0')
+2023-02-10T03:06:46,952 Removed build tracker: '/tmp/pip-build-tracker-oui6y4ff'
+2023-02-10T03:08:04,635 Using pip 22.2.2 from /home/jorge/.local/lib/python3.8/site-packages/pip (python 3.8)
+2023-02-10T03:08:04,635 Non-user install due to --prefix or --target option
+2023-02-10T03:08:04,636 Created temporary directory: /tmp/pip-target-5cns0iv8
+2023-02-10T03:08:04,814 Created temporary directory: /tmp/pip-ephem-wheel-cache-7ncwjfbt
+2023-02-10T03:08:04,815 Created temporary directory: /tmp/pip-build-tracker-oou21z38
+2023-02-10T03:08:04,815 Initialized build tracking at /tmp/pip-build-tracker-oou21z38
+2023-02-10T03:08:04,815 Created build tracker: /tmp/pip-build-tracker-oou21z38
+2023-02-10T03:08:04,815 Entered build tracker: /tmp/pip-build-tracker-oou21z38
+2023-02-10T03:08:04,815 Created temporary directory: /tmp/pip-install-w01fks0n
+2023-02-10T03:08:04,832 Collecting git+https://github.com/jaraco/path.py.git
+2023-02-10T03:08:04,833   Created temporary directory: /tmp/pip-req-build-1o2ugs3t
+2023-02-10T03:08:04,833   Cloning https://github.com/jaraco/path.py.git to /tmp/pip-req-build-1o2ugs3t
+2023-02-10T03:08:04,834   Running command git version
+2023-02-10T03:08:04,840   git version 2.25.1
+2023-02-10T03:08:04,840   Running command git clone --filter=blob:none --quiet https://github.com/jaraco/path.py.git /tmp/pip-req-build-1o2ugs3t
+2023-02-10T03:08:06,607   Running command git rev-parse HEAD
+2023-02-10T03:08:06,619   7a6943573c8644febd91ef6622d9066cc43e9dab
+2023-02-10T03:08:06,620   Resolved https://github.com/jaraco/path.py.git to commit 7a6943573c8644febd91ef6622d9066cc43e9dab
+2023-02-10T03:08:06,624   Running command git rev-parse HEAD
+2023-02-10T03:08:06,636   7a6943573c8644febd91ef6622d9066cc43e9dab
+2023-02-10T03:08:06,639   Added git+https://github.com/jaraco/path.py.git to build tracker '/tmp/pip-build-tracker-oou21z38'
+2023-02-10T03:08:06,645   Created temporary directory: /tmp/pip-build-env-qigr50gx
+2023-02-10T03:08:06,650   Running command pip subprocess to install build dependencies
+2023-02-10T03:08:07,244   Using pip 22.2.2 from /home/jorge/.local/lib/python3.8/site-packages/pip (python 3.8)
+2023-02-10T03:08:07,879   Collecting setuptools>=56
+2023-02-10T03:08:07,887     Using cached setuptools-67.2.0-py3-none-any.whl (1.1 MB)
+2023-02-10T03:08:08,054   Collecting setuptools_scm[toml]>=3.4.1
+2023-02-10T03:08:08,057     Using cached setuptools_scm-7.1.0-py3-none-any.whl (43 kB)
+2023-02-10T03:08:08,146   Collecting typing-extensions
+2023-02-10T03:08:08,148     Using cached typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+2023-02-10T03:08:08,258   Collecting packaging>=20.0
+2023-02-10T03:08:08,261     Using cached packaging-23.0-py3-none-any.whl (42 kB)
+2023-02-10T03:08:08,354   Collecting tomli>=1.0.0
+2023-02-10T03:08:08,357     Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+2023-02-10T03:08:09,103   Installing collected packages: typing-extensions, tomli, setuptools, packaging, setuptools_scm
+2023-02-10T03:08:10,212   ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+2023-02-10T03:08:10,212   launchpadlib 1.10.13 requires testresources, which is not installed.
+2023-02-10T03:08:10,213   Successfully installed packaging-23.0 setuptools-67.2.0 setuptools_scm-7.1.0 tomli-2.0.1 typing-extensions-4.4.0
+2023-02-10T03:08:10,236   --- Logging error ---
+2023-02-10T03:08:10,236   Traceback (most recent call last):
+2023-02-10T03:08:10,236     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 177, in emit
+2023-02-10T03:08:10,236       self.console.print(renderable, overflow="ignore", crop=False, style=style)
+2023-02-10T03:08:10,236     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1673, in print
+2023-02-10T03:08:10,236       extend(render(renderable, render_options))
+2023-02-10T03:08:10,236     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1305, in render
+2023-02-10T03:08:10,236       for render_output in iter_render:
+2023-02-10T03:08:10,237     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 134, in __rich_console__
+2023-02-10T03:08:10,237       for line in lines:
+2023-02-10T03:08:10,237     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/segment.py", line 249, in split_lines
+2023-02-10T03:08:10,237       for segment in segments:
+2023-02-10T03:08:10,237     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1283, in render
+2023-02-10T03:08:10,237       renderable = rich_cast(renderable)
+2023-02-10T03:08:10,237     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/protocol.py", line 36, in rich_cast
+2023-02-10T03:08:10,237       renderable = cast_method()
+2023-02-10T03:08:10,237     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 130, in __rich__
+2023-02-10T03:08:10,237       pip_cmd = get_best_invocation_for_this_pip()
+2023-02-10T03:08:10,237     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/entrypoints.py", line 58, in get_best_invocation_for_this_pip
+2023-02-10T03:08:10,237       if found_executable and os.path.samefile(
+2023-02-10T03:08:10,237     File "/usr/lib/python3.8/genericpath.py", line 101, in samefile
+2023-02-10T03:08:10,238       s2 = os.stat(f2)
+2023-02-10T03:08:10,238   FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip3.8'
+2023-02-10T03:08:10,238   Call stack:
+2023-02-10T03:08:10,238     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__pip-runner__.py", line 36, in <module>
+2023-02-10T03:08:10,238       runpy.run_module("pip", run_name="__main__", alter_sys=True)
+2023-02-10T03:08:10,238     File "/usr/lib/python3.8/runpy.py", line 207, in run_module
+2023-02-10T03:08:10,238       return _run_module_code(code, init_globals, run_name, mod_spec)
+2023-02-10T03:08:10,238     File "/usr/lib/python3.8/runpy.py", line 97, in _run_module_code
+2023-02-10T03:08:10,238       _run_code(code, mod_globals, init_globals,
+2023-02-10T03:08:10,238     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+2023-02-10T03:08:10,238       exec(code, run_globals)
+2023-02-10T03:08:10,238     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__main__.py", line 31, in <module>
+2023-02-10T03:08:10,238       sys.exit(_main())
+2023-02-10T03:08:10,238     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/main.py", line 70, in main
+2023-02-10T03:08:10,238       return command.main(cmd_args)
+2023-02-10T03:08:10,239     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 101, in main
+2023-02-10T03:08:10,239       return self._main(args)
+2023-02-10T03:08:10,239     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 223, in _main
+2023-02-10T03:08:10,239       self.handle_pip_version_check(options)
+2023-02-10T03:08:10,239     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/req_command.py", line 190, in handle_pip_version_check
+2023-02-10T03:08:10,239       pip_self_version_check(session, options)
+2023-02-10T03:08:10,239     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 236, in pip_self_version_check
+2023-02-10T03:08:10,239       logger.warning("[present-rich] %s", upgrade_prompt)
+2023-02-10T03:08:10,239     File "/usr/lib/python3.8/logging/__init__.py", line 1458, in warning
+2023-02-10T03:08:10,239       self._log(WARNING, msg, args, **kwargs)
+2023-02-10T03:08:10,239     File "/usr/lib/python3.8/logging/__init__.py", line 1589, in _log
+2023-02-10T03:08:10,239       self.handle(record)
+2023-02-10T03:08:10,240     File "/usr/lib/python3.8/logging/__init__.py", line 1599, in handle
+2023-02-10T03:08:10,240       self.callHandlers(record)
+2023-02-10T03:08:10,240     File "/usr/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+2023-02-10T03:08:10,240       hdlr.handle(record)
+2023-02-10T03:08:10,240     File "/usr/lib/python3.8/logging/__init__.py", line 954, in handle
+2023-02-10T03:08:10,240       self.emit(record)
+2023-02-10T03:08:10,240     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 179, in emit
+2023-02-10T03:08:10,240       self.handleError(record)
+2023-02-10T03:08:10,240   Message: '[present-rich] %s'
+2023-02-10T03:08:10,240   Arguments: (UpgradePrompt(old='22.2.2', new='23.0'),)
+2023-02-10T03:08:10,352   Running command Getting requirements to build wheel
+2023-02-10T03:08:10,712   running egg_info
+2023-02-10T03:08:10,713   creating path.egg-info
+2023-02-10T03:08:10,715   writing path.egg-info/PKG-INFO
+2023-02-10T03:08:10,716   writing dependency_links to path.egg-info/dependency_links.txt
+2023-02-10T03:08:10,716   writing requirements to path.egg-info/requires.txt
+2023-02-10T03:08:10,716   writing top-level names to path.egg-info/top_level.txt
+2023-02-10T03:08:10,716   writing manifest file 'path.egg-info/SOURCES.txt'
+2023-02-10T03:08:10,744   reading manifest template 'MANIFEST.in'
+2023-02-10T03:08:10,745   adding license file 'LICENSE'
+2023-02-10T03:08:10,746   writing manifest file 'path.egg-info/SOURCES.txt'
+2023-02-10T03:08:10,787   Running command pip subprocess to install backend dependencies
+2023-02-10T03:08:11,331   Using pip 22.2.2 from /home/jorge/.local/lib/python3.8/site-packages/pip (python 3.8)
+2023-02-10T03:08:11,711   Collecting wheel
+2023-02-10T03:08:11,714     Using cached wheel-0.38.4-py3-none-any.whl (36 kB)
+2023-02-10T03:08:12,280   Installing collected packages: wheel
+2023-02-10T03:08:12,313     Creating /tmp/pip-build-env-qigr50gx/normal/bin
+2023-02-10T03:08:12,314     changing mode of /tmp/pip-build-env-qigr50gx/normal/bin/wheel to 775
+2023-02-10T03:08:12,408   Successfully installed wheel-0.38.4
+2023-02-10T03:08:12,428   --- Logging error ---
+2023-02-10T03:08:12,428   Traceback (most recent call last):
+2023-02-10T03:08:12,429     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 177, in emit
+2023-02-10T03:08:12,429       self.console.print(renderable, overflow="ignore", crop=False, style=style)
+2023-02-10T03:08:12,429     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1673, in print
+2023-02-10T03:08:12,429       extend(render(renderable, render_options))
+2023-02-10T03:08:12,429     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1305, in render
+2023-02-10T03:08:12,429       for render_output in iter_render:
+2023-02-10T03:08:12,429     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 134, in __rich_console__
+2023-02-10T03:08:12,429       for line in lines:
+2023-02-10T03:08:12,429     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/segment.py", line 249, in split_lines
+2023-02-10T03:08:12,430       for segment in segments:
+2023-02-10T03:08:12,430     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/console.py", line 1283, in render
+2023-02-10T03:08:12,430       renderable = rich_cast(renderable)
+2023-02-10T03:08:12,430     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_vendor/rich/protocol.py", line 36, in rich_cast
+2023-02-10T03:08:12,430       renderable = cast_method()
+2023-02-10T03:08:12,430     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 130, in __rich__
+2023-02-10T03:08:12,430       pip_cmd = get_best_invocation_for_this_pip()
+2023-02-10T03:08:12,430     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/entrypoints.py", line 58, in get_best_invocation_for_this_pip
+2023-02-10T03:08:12,430       if found_executable and os.path.samefile(
+2023-02-10T03:08:12,431     File "/usr/lib/python3.8/genericpath.py", line 101, in samefile
+2023-02-10T03:08:12,431       s2 = os.stat(f2)
+2023-02-10T03:08:12,431   FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/pip3.8'
+2023-02-10T03:08:12,431   Call stack:
+2023-02-10T03:08:12,431     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__pip-runner__.py", line 36, in <module>
+2023-02-10T03:08:12,431       runpy.run_module("pip", run_name="__main__", alter_sys=True)
+2023-02-10T03:08:12,431     File "/usr/lib/python3.8/runpy.py", line 207, in run_module
+2023-02-10T03:08:12,431       return _run_module_code(code, init_globals, run_name, mod_spec)
+2023-02-10T03:08:12,431     File "/usr/lib/python3.8/runpy.py", line 97, in _run_module_code
+2023-02-10T03:08:12,431       _run_code(code, mod_globals, init_globals,
+2023-02-10T03:08:12,432     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+2023-02-10T03:08:12,432       exec(code, run_globals)
+2023-02-10T03:08:12,432     File "/home/jorge/.local/lib/python3.8/site-packages/pip/__main__.py", line 31, in <module>
+2023-02-10T03:08:12,432       sys.exit(_main())
+2023-02-10T03:08:12,432     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/main.py", line 70, in main
+2023-02-10T03:08:12,432       return command.main(cmd_args)
+2023-02-10T03:08:12,432     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 101, in main
+2023-02-10T03:08:12,432       return self._main(args)
+2023-02-10T03:08:12,432     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/base_command.py", line 223, in _main
+2023-02-10T03:08:12,432       self.handle_pip_version_check(options)
+2023-02-10T03:08:12,432     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/cli/req_command.py", line 190, in handle_pip_version_check
+2023-02-10T03:08:12,432       pip_self_version_check(session, options)
+2023-02-10T03:08:12,433     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/self_outdated_check.py", line 236, in pip_self_version_check
+2023-02-10T03:08:12,433       logger.warning("[present-rich] %s", upgrade_prompt)
+2023-02-10T03:08:12,433     File "/usr/lib/python3.8/logging/__init__.py", line 1458, in warning
+2023-02-10T03:08:12,433       self._log(WARNING, msg, args, **kwargs)
+2023-02-10T03:08:12,433     File "/usr/lib/python3.8/logging/__init__.py", line 1589, in _log
+2023-02-10T03:08:12,433       self.handle(record)
+2023-02-10T03:08:12,433     File "/usr/lib/python3.8/logging/__init__.py", line 1599, in handle
+2023-02-10T03:08:12,433       self.callHandlers(record)
+2023-02-10T03:08:12,434     File "/usr/lib/python3.8/logging/__init__.py", line 1661, in callHandlers
+2023-02-10T03:08:12,434       hdlr.handle(record)
+2023-02-10T03:08:12,434     File "/usr/lib/python3.8/logging/__init__.py", line 954, in handle
+2023-02-10T03:08:12,434       self.emit(record)
+2023-02-10T03:08:12,434     File "/home/jorge/.local/lib/python3.8/site-packages/pip/_internal/utils/logging.py", line 179, in emit
+2023-02-10T03:08:12,434       self.handleError(record)
+2023-02-10T03:08:12,434   Message: '[present-rich] %s'
+2023-02-10T03:08:12,434   Arguments: (UpgradePrompt(old='22.2.2', new='23.0'),)
+2023-02-10T03:08:12,526   Created temporary directory: /tmp/pip-modern-metadata-vqh00mid
+2023-02-10T03:08:12,528   Running command Preparing metadata (pyproject.toml)
+2023-02-10T03:08:12,846   running dist_info
+2023-02-10T03:08:12,852   creating /tmp/pip-modern-metadata-vqh00mid/path.egg-info
+2023-02-10T03:08:12,853   writing /tmp/pip-modern-metadata-vqh00mid/path.egg-info/PKG-INFO
+2023-02-10T03:08:12,853   writing dependency_links to /tmp/pip-modern-metadata-vqh00mid/path.egg-info/dependency_links.txt
+2023-02-10T03:08:12,854   writing requirements to /tmp/pip-modern-metadata-vqh00mid/path.egg-info/requires.txt
+2023-02-10T03:08:12,854   writing top-level names to /tmp/pip-modern-metadata-vqh00mid/path.egg-info/top_level.txt
+2023-02-10T03:08:12,854   writing manifest file '/tmp/pip-modern-metadata-vqh00mid/path.egg-info/SOURCES.txt'
+2023-02-10T03:08:12,884   reading manifest template 'MANIFEST.in'
+2023-02-10T03:08:12,885   adding license file 'LICENSE'
+2023-02-10T03:08:12,886   writing manifest file '/tmp/pip-modern-metadata-vqh00mid/path.egg-info/SOURCES.txt'
+2023-02-10T03:08:12,886   creating '/tmp/pip-modern-metadata-vqh00mid/path-16.6.1.dev11+g7a69435.dist-info'
+2023-02-10T03:08:12,945   Source in /tmp/pip-req-build-1o2ugs3t has version 16.6.1.dev11+g7a69435, which satisfies requirement path==16.6.1.dev11+g7a69435 from git+https://github.com/jaraco/path.py.git
+2023-02-10T03:08:12,945   Removed path==16.6.1.dev11+g7a69435 from git+https://github.com/jaraco/path.py.git from build tracker '/tmp/pip-build-tracker-oou21z38'
+2023-02-10T03:08:12,990 Created temporary directory: /tmp/pip-unpack-trs56nn6
+2023-02-10T03:08:12,990 Building wheels for collected packages: path
+2023-02-10T03:08:12,992   Created temporary directory: /tmp/pip-wheel-_sxuejjq
+2023-02-10T03:08:12,992   Destination directory: /tmp/pip-wheel-_sxuejjq
+2023-02-10T03:08:12,993   Running command Building wheel for path (pyproject.toml)
+2023-02-10T03:08:13,357   running bdist_wheel
+2023-02-10T03:08:13,368   running build
+2023-02-10T03:08:13,368   running build_py
+2023-02-10T03:08:13,371   creating build
+2023-02-10T03:08:13,371   creating build/lib
+2023-02-10T03:08:13,371   creating build/lib/path
+2023-02-10T03:08:13,371   copying path/classes.py -> build/lib/path
+2023-02-10T03:08:13,371   copying path/matchers.py -> build/lib/path
+2023-02-10T03:08:13,372   copying path/py37compat.py -> build/lib/path
+2023-02-10T03:08:13,372   copying path/__init__.py -> build/lib/path
+2023-02-10T03:08:13,372   copying path/masks.py -> build/lib/path
+2023-02-10T03:08:13,373   running egg_info
+2023-02-10T03:08:13,379   writing path.egg-info/PKG-INFO
+2023-02-10T03:08:13,379   writing dependency_links to path.egg-info/dependency_links.txt
+2023-02-10T03:08:13,380   writing requirements to path.egg-info/requires.txt
+2023-02-10T03:08:13,380   writing top-level names to path.egg-info/top_level.txt
+2023-02-10T03:08:13,409   reading manifest template 'MANIFEST.in'
+2023-02-10T03:08:13,410   adding license file 'LICENSE'
+2023-02-10T03:08:13,411   writing manifest file 'path.egg-info/SOURCES.txt'
+2023-02-10T03:08:13,412   copying path/__init__.pyi -> build/lib/path
+2023-02-10T03:08:13,412   copying path/classes.pyi -> build/lib/path
+2023-02-10T03:08:13,412   copying path/masks.pyi -> build/lib/path
+2023-02-10T03:08:13,413   copying path/matchers.pyi -> build/lib/path
+2023-02-10T03:08:13,413   copying path/py.typed -> build/lib/path
+2023-02-10T03:08:13,413   copying path/py37compat.pyi -> build/lib/path
+2023-02-10T03:08:13,420   installing to build/bdist.linux-x86_64/wheel
+2023-02-10T03:08:13,420   running install
+2023-02-10T03:08:13,428   running install_lib
+2023-02-10T03:08:13,430   creating build/bdist.linux-x86_64
+2023-02-10T03:08:13,430   creating build/bdist.linux-x86_64/wheel
+2023-02-10T03:08:13,431   creating build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,431   copying build/lib/path/classes.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,431   copying build/lib/path/classes.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,431   copying build/lib/path/matchers.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,431   copying build/lib/path/masks.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,432   copying build/lib/path/py37compat.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,432   copying build/lib/path/__init__.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,432   copying build/lib/path/py37compat.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,432   copying build/lib/path/__init__.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,433   copying build/lib/path/masks.py -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,433   copying build/lib/path/py.typed -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,433   copying build/lib/path/matchers.pyi -> build/bdist.linux-x86_64/wheel/path
+2023-02-10T03:08:13,433   running install_egg_info
+2023-02-10T03:08:13,436   Copying path.egg-info to build/bdist.linux-x86_64/wheel/path-16.6.1.dev11+g7a69435-py3.8.egg-info
+2023-02-10T03:08:13,437   running install_scripts
+2023-02-10T03:08:13,464   creating build/bdist.linux-x86_64/wheel/path-16.6.1.dev11+g7a69435.dist-info/WHEEL
+2023-02-10T03:08:13,465   creating '/tmp/pip-wheel-_sxuejjq/.tmp-y06fdt9e/path-16.6.1.dev11+g7a69435-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+2023-02-10T03:08:13,468   adding 'path/__init__.py'
+2023-02-10T03:08:13,469   adding 'path/__init__.pyi'
+2023-02-10T03:08:13,469   adding 'path/classes.py'
+2023-02-10T03:08:13,469   adding 'path/classes.pyi'
+2023-02-10T03:08:13,470   adding 'path/masks.py'
+2023-02-10T03:08:13,470   adding 'path/masks.pyi'
+2023-02-10T03:08:13,470   adding 'path/matchers.py'
+2023-02-10T03:08:13,470   adding 'path/matchers.pyi'
+2023-02-10T03:08:13,471   adding 'path/py.typed'
+2023-02-10T03:08:13,471   adding 'path/py37compat.py'
+2023-02-10T03:08:13,472   adding 'path/py37compat.pyi'
+2023-02-10T03:08:13,472   adding 'path-16.6.1.dev11+g7a69435.dist-info/LICENSE'
+2023-02-10T03:08:13,473   adding 'path-16.6.1.dev11+g7a69435.dist-info/METADATA'
+2023-02-10T03:08:13,473   adding 'path-16.6.1.dev11+g7a69435.dist-info/WHEEL'
+2023-02-10T03:08:13,474   adding 'path-16.6.1.dev11+g7a69435.dist-info/top_level.txt'
+2023-02-10T03:08:13,474   adding 'path-16.6.1.dev11+g7a69435.dist-info/RECORD'
+2023-02-10T03:08:13,474   removing build/bdist.linux-x86_64/wheel
+2023-02-10T03:08:13,515   Created wheel for path: filename=path-16.6.1.dev11+g7a69435-py3-none-any.whl size=26716 sha256=9300498e7ee586f47307459ccca47d03676c390381dfcb36d0539fc0e807a3b9
+2023-02-10T03:08:13,516   Stored in directory: /tmp/pip-ephem-wheel-cache-7ncwjfbt/wheels/f4/b1/e8/0c2581fc68c581f8838df32b71e05a09629ef0ac8500bff509
+2023-02-10T03:08:13,524 Successfully built path
+2023-02-10T03:08:14,261 Installing collected packages: path
+2023-02-10T03:08:14,263   Running command git rev-parse HEAD
+2023-02-10T03:08:14,269   7a6943573c8644febd91ef6622d9066cc43e9dab
+
+2023-02-10T03:08:14,413 Successfully installed path-16.6.1.dev11+g7a69435
+2023-02-10T03:08:14,422 Remote version of pip: 23.0
+2023-02-10T03:08:14,423 Local version of pip:  22.2.2
+2023-02-10T03:08:14,424 Was pip installed by pip? True
+2023-02-10T03:08:14,424 WARNING: [present-rich] UpgradePrompt(old='22.2.2', new='23.0')
+2023-02-10T03:08:14,429 Removed build tracker: '/tmp/pip-build-tracker-oou21z38'

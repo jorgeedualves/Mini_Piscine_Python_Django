@@ -12,14 +12,16 @@ class Text(str):
         """
         Do you really need a comment to understand this method?..
         """
-        return super().__str__().replace('\n', '\n<br />\n')
+        return super().__str__().replace('<', '&lt').replace('>', '&gt;').replace('"', '&quot;').replace('\n', '\n<br />\n').replace("'", '"')
 
 
 class Elem:
     """
     Elem will permit us to represent our HTML elements.
     """
-    [...]
+    class ValidationError(Exception):
+        def __init__(self, error="Invalid Argments"):
+            Exception.__init__(self, error)
 
     def __init__(self, tag='div', attr={}, content=None, tag_type='double'):
         """
@@ -27,8 +29,7 @@ class Elem:
 
         Obviously.
         """
-        [...]
-
+        
     def __str__(self):
         """
         The __str__() method will permit us to make a plain HTML representation

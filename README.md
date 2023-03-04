@@ -9,7 +9,7 @@
 - Technology integration
 
 ## certificate
-<img src="img/certificadoPython.png>
+<img src="img/certificadoPython.png">
 
 <table border="1" width="300">
 
@@ -91,4 +91,13 @@
            ⚠️ Não pode importar os scripts especificados. Você não pode modificá-los.
               Não pode adicionar Javascript em seu código HTML.</td>
    </tr>
+   <tr><td>Ex05</td>
+      <td>Código é legal. Código legal é melhor. E escreva um bom código, você deve seguir uma boa norma.<br>
+      A norma W3C é básica e você deve respeitar sua forma ao escrever ou gerar HTML.<br>
+      Há arquivos no diretório ex05.Ele contém as fontes de uma página web completa. Infelizmente, foi escrito por um<br>
+      desenvolvedor muito menos habilidoso do que você!<br>
+      Edite o código HTML do arquivo de índice html para que ele passe na validação do W3C! Isso não significa erro nem aviso.<br>
+      Você deve editar o arquivo, não truncá-lo. Isso significa que o conteúdo do arquivo que você editará deve ser incluído em<br> 
+      sua totalidade em seu repo.<br>
+      </td></tr>
    </table>

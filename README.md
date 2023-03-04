@@ -8,6 +8,8 @@
 - Web
 - Technology integration
 
+## certificate
+<img src="img/certificadoPython.png>
 
 <table border="1" width="300">
 
@@ -74,7 +76,7 @@
        <td>Uma empresa concorrente carregou um site que é melhor do que o seu. Graças a uma séria missão de espionagem<br>
        industrial, seu chefe obtém uma captura de tela de uma página e seu arquivo css.<br>
            Deve replicar esta página o mais fielmente possível!<br>
-           <img src="front_back_css.png"><br>
+           <img src="img/front_back_css.png"><br>
            Mais uma vez, você terá que separar estilo e conteúdo, respeitar a semântica das tags que usará e manter<br>
            a estrutura lógica do seu documento.<br><br>
            Deve usar o arquivo css fornecido sem modificá-lo. Uma versão "nova" do css será usada durante a avaliação<br>
